@@ -1,1 +1,1 @@
-# react-native-scrollable-tab-view-custom-bar
+# react-native-scrollable-tab-view-mask-bar
