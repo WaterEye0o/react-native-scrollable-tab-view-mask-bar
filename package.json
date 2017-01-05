@@ -1,0 +1,25 @@
+{
+  "name": "react-native-scrollable-tab-view-custom-bar",
+  "version": "1.0.0",
+  "description": "this is a custom tab bar for react-native-scrollable-tab-view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaterEye0o/react-native-scrollable-tab-view-custom-bar.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "scroll",
+    "react-native-scrollable-tab-view"
+  ],
+  "author": "WateryEye",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaterEye0o/react-native-scrollable-tab-view-custom-bar/issues"
+  },
+  "homepage": "https://github.com/WaterEye0o/react-native-scrollable-tab-view-custom-bar#readme"
+}
