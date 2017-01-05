@@ -1,6 +1,6 @@
 {
   "name": "react-native-scrollable-tab-view-mask-bar",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "this is a custom tab bar for react-native-scrollable-tab-view",
   "main": "index.js",
   "scripts": {

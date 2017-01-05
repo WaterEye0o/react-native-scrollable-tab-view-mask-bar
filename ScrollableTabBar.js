@@ -274,8 +274,8 @@ const ScrollableTabBar = React.createClass({
             <Animated.View style={[tabUnderlineStyle, dynamicTabUnderline, this.props.underlineStyle, ]}/>
           </View>
         </ScrollView>
-        {this.state.showMask&&this.renderLeftMask()}
-        {this.state.showMask&&this.renderRightMask()}
+        {this.props.showMask && this.renderLeftMask()}
+        {this.props.showMask && this.renderRightMask()}
       </View>
     );
   },
