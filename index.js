@@ -3,6 +3,6 @@
  * https://github.com/WaterEye0o
  */
 
-import ScrollableTabView from './ScrollableTabBar';
+const ScrollableTabView = require('./ScrollableTabBar')
 
 module.exports = ScrollableTabView
