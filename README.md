@@ -4,7 +4,7 @@ this component is a custom component of the react-native-scrollable-tab-view rep
 
 # Install
 
-1. Run `npm install react-native-scrollable-tab-mask-bar --save`
+1. Run `npm install react-native-scrollable-tab-view-mask-bar --save`
 2. Run `npm install react-native-scrollable-tab-view --save`
 
 # Usage
