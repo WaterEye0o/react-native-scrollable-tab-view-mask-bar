@@ -1,5 +1,5 @@
-## react-native-scrollable-tab-view-mask-bar
-[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view-mask-bar.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view-mask-bar)
+## react-native-scrollable-tab-view-mask-bar[![npm version](https://badge.fury.io/js/react-native-scrollable-tab-view-mask-bar.svg)](https://badge.fury.io/js/react-native-scrollable-tab-view-mask-bar)
+
 this component is a custom component of the react-native-scrollable-tab-view repository ,so I suggest you use this component and the combination of react-native-scrollable-tab-view.
 
 ## Install
