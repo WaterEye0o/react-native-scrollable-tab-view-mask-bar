@@ -28,4 +28,4 @@ var App = React.createClass({
 
 ## Demo
 
-<a href="https://raw.githubusercontent.com/WaterEye0o/react-native-scrollable-tab-mask-bar/master/demo_images/facebook_tabbar.gif"><img src="https://raw.githubusercontent.com/WaterEye0o/react-native-scrollable-tab-mask-bar/master/demo_images/facebook_tabbar.gif" width="350"></a>
+<a href="https://raw.githubusercontent.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar/master/demo_images/scrollable_example.gif"><img src="https://raw.githubusercontent.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar/master/demo_images/scrollable_example.gif" width="350"></a>
