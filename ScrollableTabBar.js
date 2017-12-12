@@ -1,5 +1,6 @@
 const React = require('react');
 const ReactNative = require('react-native');
+const createReactClass = require('create-react-class');
 const {
   View,
   Animated,
@@ -11,6 +12,7 @@ const {
   Image
 } = ReactNative;
 const Button = require('./Button');
+const PropTypes = require('prop-types');
 
 const WINDOW_WIDTH = Dimensions.get('window').width;
 const MASK_WIDTH = 60;
@@ -28,25 +30,25 @@ const MASK_IMG = {
   }
 }
 
-const ScrollableTabBar = React.createClass({
+const ScrollableTabBar = createReactClass({
   propTypes: {
-    goToPage: React.PropTypes.func,
-    activeTab: React.PropTypes.number,
-    tabs: React.PropTypes.array,
-    backgroundColor: React.PropTypes.string,
-    activeTextColor: React.PropTypes.string,
-    inactiveTextColor: React.PropTypes.string,
-    scrollOffset: React.PropTypes.number,
+    goToPage: PropTypes.func,
+    activeTab: PropTypes.number,
+    tabs: PropTypes.array,
+    backgroundColor: PropTypes.string,
+    activeTextColor: PropTypes.string,
+    inactiveTextColor: PropTypes.string,
+    scrollOffset: PropTypes.number,
     style: View.propTypes.style,
     tabStyle: View.propTypes.style,
     tabsContainerStyle: View.propTypes.style,
     textStyle: Text.propTypes.style,
-    renderTab: React.PropTypes.func,
+    renderTab: PropTypes.func,
     underlineStyle: View.propTypes.style,
     underlineContainerStyle: View.propTypes.style,
-    onScroll: React.PropTypes.func,
-    showMask: React.PropTypes.bool,
-    maskMode: React.PropTypes.oneOf(['light', 'dark','x-light'])
+    onScroll: PropTypes.func,
+    showMask: PropTypes.bool,
+    maskMode: PropTypes.oneOf(['light', 'dark','x-light'])
   },
 
   getDefaultProps() {
@@ -310,7 +312,6 @@ const ScrollableTabBar = React.createClass({
 });
 
 module.exports = ScrollableTabBar;
-
 const styles = StyleSheet.create({
   tab: {
     height: 49,
@@ -337,3 +338,4 @@ const styles = StyleSheet.create({
     bottom: 0,
   }
 });
+
