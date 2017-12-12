@@ -184,7 +184,7 @@ const ScrollableTabBar = createReactClass({
   measureTab(page, event) {
     const {x, width, height,} = event.nativeEvent.layout;
     this._tabsMeasurements[page] = {left: x, right: x + width, width, height,};
-    this.updateView({value: this.props.scrollValue._value,});
+    this.updateView({value: this.props.scrollValue._a._value,});
   },
 
   renderLeftMask(){
@@ -302,12 +302,12 @@ const ScrollableTabBar = createReactClass({
       this.setState({_showRightMask: true});
     }
     this.setState({_containerWidth: width,});
-    this.updateView({value: this.props.scrollValue._value,});
+    this.updateView({value: this.props.scrollValue._a._value,});
   },
 
   onContainerLayout(e) {
     this._containerMeasurements = e.nativeEvent.layout;
-    this.updateView({value: this.props.scrollValue._value,});
+    this.updateView({value: this.props.scrollValue._a._value,});
   },
 });
 

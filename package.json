@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar/issues"
   },
+"dependencies": {
+    "react-timer-mixin": "^0.13.3",
+    "prop-types": "^15.6.0",
+    "create-react-class": "^15.6.2"
+  },
   "homepage": "https://github.com/WaterEye0o/react-native-scrollable-tab-view-mask-bar#readme"
+
 }
